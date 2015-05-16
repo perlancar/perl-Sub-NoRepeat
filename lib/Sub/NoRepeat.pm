@@ -179,7 +179,7 @@ sub norepeat {
     my $calc_seop_times; # routine to calculate start and end of period
     if ($period) {
         if ($period =~ /\A(\d+)\s*
-                        (s|secs?|seconds?|mins?|minutes?|hours?|
+                        (s|secs?|seconds?|mins?|minutes?|h|hours?|
                             d|days?|w|weeks?|mons?|months?|y|years?)\z/x
                         ) {
             my ($n, $unit) = ($1, $2);
