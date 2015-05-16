@@ -1,5 +1,13 @@
 Revision history for Sub-NoRepeat
 
+0.02    2015-05-16 (PERLANCAR)
+
+	- No functional changes.
+
+	- [Bugfix] period of 2h was not not allowed, it should be allowed
+	  like 2hour.
+
+
 0.01    2015-05-16 (PERLANCAR)
 
         - First release, no tests yet.
