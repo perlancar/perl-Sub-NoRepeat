@@ -351,6 +351,9 @@ sub norepeat {
 
 =head1 DESCRIPTION
 
+This module is a generalization of the concept of L<App::norepeat> and possibly
+will supersede it in the future.
+
 
 =head1 DATA FILE
 
