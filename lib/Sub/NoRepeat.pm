@@ -6,7 +6,7 @@ package Sub::NoRepeat;
 use 5.010001;
 use strict;
 use warnings;
-use Log::Any::IfLOG '$log';
+use Log::ger;
 
 use Fcntl qw(:DEFAULT :flock);
 use Time::Local;
@@ -295,7 +295,7 @@ sub norepeat {
     }
 
     unless ($should_run) {
-        $log->debug("norepeat: skipped repeated execution");
+        log_debug("norepeat: skipped repeated execution");
         return;
     }
 
